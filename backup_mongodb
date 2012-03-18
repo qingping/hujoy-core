@@ -1,0 +1,3 @@
+#!/bin/sh
+DATE_NAME=`date +%y%m%d`
+mongodump -d hujoy_prod -o ~/backups/mongodb/hujoy_prod_$DATE_NAME
